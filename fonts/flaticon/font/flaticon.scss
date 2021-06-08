@@ -1,0 +1,49 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?db697fb6fcc0ebdba7b230c3d3a59209") format("truetype"),
+url("./flaticon.woff?db697fb6fcc0ebdba7b230c3d3a59209") format("woff"),
+url("./flaticon.woff2?db697fb6fcc0ebdba7b230c3d3a59209") format("woff2"),
+url("./flaticon.eot?db697fb6fcc0ebdba7b230c3d3a59209#iefix") format("embedded-opentype"),
+url("./flaticon.svg?db697fb6fcc0ebdba7b230c3d3a59209#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "floor-plan": "\f101",
+    "decorating": "\f102",
+    "3d-cube": "\f103",
+    "sketch": "\f104",
+    "architect": "\f105",
+    "hook": "\f106",
+);
+
+.flaticon-floor-plan:before {
+    content: map-get($flaticon-map, "floor-plan");
+}
+.flaticon-decorating:before {
+    content: map-get($flaticon-map, "decorating");
+}
+.flaticon-3d-cube:before {
+    content: map-get($flaticon-map, "3d-cube");
+}
+.flaticon-sketch:before {
+    content: map-get($flaticon-map, "sketch");
+}
+.flaticon-architect:before {
+    content: map-get($flaticon-map, "architect");
+}
+.flaticon-hook:before {
+    content: map-get($flaticon-map, "hook");
+}
