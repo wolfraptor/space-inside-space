@@ -7376,7 +7376,7 @@ h1, h2, h3, h4, h5,
       color: #ff78c4;
       position: relative;
       border: 2px solid #ff78c4;
-      padding: 0 5px; }
+      padding: 0; }
   #colorlib-aside #colorlib-main-menu ul {
     margin: 0;
     padding: 0; }
@@ -7687,6 +7687,8 @@ h1, h2, h3, h4, h5,
       text-transform: uppercase; }
       .hero-wrap .text h1 span {
         color: #ff78c4; }
+      h4 span {
+        color: #ff78c4; }
       @media (max-width: 991.98px) {
         .hero-wrap .text h1 {
           font-size: 22px; } }
@@ -7713,7 +7715,7 @@ h1, h2, h3, h4, h5,
     .video-hero .text {
       margin-top: -4vw; } }
   .video-hero .text h1 {
-    font-size: 8vw;
+    font-size: 6vw;
     font-weight: 600;
     line-height: 1;
     text-transform: uppercase;
@@ -7821,7 +7823,7 @@ h1, h2, h3, h4, h5,
     font-weight: 600;
     color: #000000;
     margin-bottom: 0;
-    font-size: 8vw;
+    font-size: 6vw;
     display: inline-block;
     position: relative;
     line-height: 1; }
@@ -7915,7 +7917,7 @@ h1, h2, h3, h4, h5,
       margin-top: -4vw; }
       .project .img .text h2 {
         text-transform: uppercase;
-        font-size: 8vw;
+        font-size: 6vw;
         font-weight: 600;
         line-height: 1;
         -moz-transition: all 0.3s ease;
